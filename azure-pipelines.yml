@@ -28,6 +28,7 @@ steps:
     cliProjectKey: '181242_camposRicardo'
     cliProjectName: 'camposRicardo'
     cliSources: '.'
+- task: SonarCloudAnalyze@1
 - task: SonarCloudPublish@1
   inputs:
     pollingTimeoutSec: '300'
