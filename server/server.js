@@ -18,7 +18,7 @@ app.use((req, res, next) => {
     next();
 });
 
-//ProcesoFILEZILA
+//ProcesoSONARCLOUD
 //Parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false })); //url amistosa, captura los datos del formulario
 //Parse de formato a application/json
